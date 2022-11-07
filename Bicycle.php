@@ -7,10 +7,7 @@ class Bicyle extends Vehicle implements LightableInterface
 {
     function switchOn(): bool
     {
-        if ($this->getCurrentSpeed() > 10) {
-            return true;
-        }
-        return false;
+        return $this->getCurrentSpeed() > 10 ? true : false;
     }
 
     function switchOff(): bool
