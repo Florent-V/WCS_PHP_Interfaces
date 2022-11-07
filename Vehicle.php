@@ -1,4 +1,4 @@
-Car<?php 
+<?php 
 
 class Vehicle 
 {
